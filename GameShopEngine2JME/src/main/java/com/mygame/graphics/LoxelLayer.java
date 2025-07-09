@@ -6,14 +6,14 @@ import com.jme3.math.Vector4f;
 
 import java.util.Arrays;
 
-public class Layer {
+public class LoxelLayer {
     public int width;
     public int height;
 
     public float[][] layer;
     //public Vector4f[][] layer;
 
-    public Layer(int width, int height){
+    public LoxelLayer(int width, int height){
 
         this.width = width;
         this.height = height;

@@ -6,19 +6,19 @@ import com.jme3.texture.image.ColorSpace;
 import java.nio.ByteBuffer;
 import java.util.ArrayList;
 
-public class ATMS {
+public class Loxel {
 
     public int width;
     public int height;
-    public Layer layer;
+    public LoxelLayer layer;
     public String name;
-    public ATMS(String name, int width, int height){
+    public Loxel(String name, int width, int height){
 
         this.name = name;
         //this.name = name;
         this.width = width;
         this.height = height;
-        this.layer = new Layer(width, height);
+        this.layer = new LoxelLayer(width, height);
     }
 
     public Image makeATMS(){

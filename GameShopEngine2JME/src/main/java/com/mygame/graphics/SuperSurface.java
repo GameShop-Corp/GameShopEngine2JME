@@ -21,11 +21,11 @@ public class SuperSurface {
 
     //SimpleApplication app;
 
-    public ATMS atms;
+    public Loxel atms;
     //Texture2D texture;
     public Node node;
 
-    public SuperSurface(SuperLine[] currencyLines, ATMS atms, Node node){
+    public SuperSurface(SuperLine[] currencyLines, Loxel atms, Node node){
 
         //this.app = app;
         this.currencyLines = currencyLines;
