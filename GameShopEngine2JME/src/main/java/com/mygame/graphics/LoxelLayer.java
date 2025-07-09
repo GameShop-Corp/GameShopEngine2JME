@@ -116,22 +116,22 @@ public class LoxelLayer {
         return output;
     }
 
-    public void drawSuperLine(SuperLine cl, short radius, Vector4f color){
-
-        //int i = 0;
-        System.out.println(Arrays.asList(cl.infinitesimals));
-        for (int i = 0; i < cl.infinitesimals.length - 1; i++){
-
-            //if (i < cl.infinitesimals.length - 1) {
-
-            drawLine(new Vector2f((int)cl.infinitesimals[i].x,(int)cl.infinitesimals[i].y), new Vector2f((int)cl.infinitesimals[i + 1].x,(int)cl.infinitesimals[i + 1].y), radius, color);
-            // i++;
-            //}
-
-
-        }
-
-    }
+//    public void drawSuperLine(SuperLine cl, short radius, Vector4f color){
+//
+//        //int i = 0;
+//        System.out.println(Arrays.asList(cl.infinitesimals));
+//        for (int i = 0; i < cl.infinitesimals.length - 1; i++){
+//
+//            //if (i < cl.infinitesimals.length - 1) {
+//
+//            drawLine(new Vector2f((int)cl.infinitesimals[i].x,(int)cl.infinitesimals[i].y), new Vector2f((int)cl.infinitesimals[i + 1].x,(int)cl.infinitesimals[i + 1].y), radius, color);
+//            // i++;
+//            //}
+//
+//
+//        }
+//
+//    }
     public void drawLine(Vector2f pointA, Vector2f pointB, short radius, Vector4f color){
 
         //System.out.println("drawLine " + pointA.toString(new DecimalFormat("##")) + " " + pointB.toString(new DecimalFormat("##")) + " " + radius + " " + color.toString(new DecimalFormat("##")));
